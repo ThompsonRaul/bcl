@@ -28,8 +28,6 @@ async function pegaArquivo(caminhoArquivo){
         return extraiLinks(texto);
     } catch (erro) {
         trataErro(erro);
-    }finally{
-        console.log(chalk.yellow('Operação concluída.'));
     }
 }
 
